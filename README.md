@@ -1,16 +1,70 @@
-# React + Vite
+# 🎬 Stranger Things – Website Responsivo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Preview do projeto](./preview.png)
 
-Currently, two official plugins are available:
+Projeto front-end desenvolvido com foco em **design moderno**, **responsividade** e **boas práticas de layout**, inspirado na série *Stranger Things*.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo foi criar uma interface visualmente imersiva, organizada em seções bem definidas, com grid responsivo e atenção à tipografia e espaçamentos.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ React
+- 🎨 CSS Modules
+- 📐 CSS Grid & Flexbox
+- 📱 Design Responsivo
+- ✨ Animações com CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📱 Responsividade
+
+O layout se adapta automaticamente para diferentes tamanhos de tela:
+
+- 🖥️ Desktop: até **3 colunas**
+- 💻 Tablets: **2 colunas**
+- 📱 Mobile: **1 coluna**
+
+Utilizando **CSS Grid** com media queries bem definidas para evitar quebras de layout.
+
+---
+
+## 🎨 Destaques de UI
+
+- Grid limitado a no máximo 3 colunas
+- Tipografia escalável com `clamp()`
+- Imagens com efeito glow e hover
+- Seções com overlay e gradientes sutis
+- Layout limpo e centralizado em mobile
+
+---
+
+## 🧠 Aprendizados
+
+- Organização de componentes em React
+- Controle de layout com Grid responsivo
+- Planejamento de breakpoints
+- Separação de responsabilidade entre estrutura e estilo
+
+---
+
+## 📸 Preview
+
+> Adicione uma imagem chamada **preview.png** na raiz do repositório  
+> (print da tela inicial do site)
+
+---
+
+## 📌 Status do projeto
+
+✅ Em desenvolvimento / Portfólio
+
+---
+
+## 👨‍💻 Autor
+
+**Mizum.dev**  
+Front-end Developer em formação
+
+🔗 GitHub: https://github.com/seu-usuario

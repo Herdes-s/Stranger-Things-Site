@@ -49,13 +49,6 @@ Utilizando **CSS Grid** com media queries bem definidas para evitar quebras de l
 
 ---
 
-## 📸 Preview
-
-> Adicione uma imagem chamada **preview.png** na raiz do repositório  
-> (print da tela inicial do site)
-
----
-
 ## 📌 Status do projeto
 
 ✅ Em desenvolvimento / Portfólio
@@ -67,4 +60,4 @@ Utilizando **CSS Grid** com media queries bem definidas para evitar quebras de l
 **Mizum.dev**  
 Front-end Developer em formação
 
-🔗 GitHub: https://github.com/seu-usuario
+🔗 GitHub: https://github.com/Herdes-s

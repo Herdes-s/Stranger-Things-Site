@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "StrangerThings";
+  src: url("./assets/fonts/stranger-things-font/strangerThings/BenguiatBold.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-main-bg: #0b0b0b;
+  --color-secondary-bg: #b91c1c;
+  --color-terciary-bg: #1f1f1f;
+
+  --text-color-primary: #e5e5e5;
+  --text-color-secondary: #b3b3b3;
+  --text-color-muted: #8a8a8a;
+
+  --color-hover: #dc2626;
+  --color-active: #991b1b;
+  --color-border: rgba(255, 255, 255, 0.1);
+
+  --color-glow: rgba(185, 28, 28, 0.6);
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 48px;
+  --space-xl: 64px;
+  --space-2xl: 80px;
+  --space-3xl: 120px;
+
+  --text-sm: 16px;
+  --text-md: 18px;
+  --text-lg: 24px;
+  --text-xl: 32px;
+  --text-2xl: 48px;
+  --text-3xl: 64px;
+
+  --line-height-sm: 1.4;
+  --line-height-md: 1.6;
+  --line-height-lg: 1.8;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+
+  --z-header: 100;
+  --z-modal: 200;
+  --z-overlay: 300;
+
+  --font-title: "Bebas Neue", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-stranger-things: "StrangerThings", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-title);
+  letter-spacing: 1px;
+}

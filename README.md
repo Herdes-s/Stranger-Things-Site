@@ -1,70 +1,73 @@
 # 🎬 Stranger Things – Website Responsivo
 
+> Interface digital visualmente imersiva e responsiva, inspirada na estética e na atmosfera da série Stranger Things.
+
+---
+
+## 🌓 Visualização
+
 ![Preview do projeto](./preview.png)
 
-Projeto front-end desenvolvido com foco em **design moderno**, **responsividade** e **boas práticas de layout**, inspirado na série *Stranger Things*.
+---
 
-O objetivo foi criar uma interface visualmente imersiva, organizada em seções bem definidas, com grid responsivo e atenção à tipografia e espaçamentos.
+## 🚀 Objetivo
+O objetivo principal deste projeto foi consolidar conhecimentos avançados de layout e estilização no ecossistema do React. O foco foi criar uma interface moderna com forte apelo visual, garantindo que a tipografia e o grid se adaptem perfeitamente a qualquer tamanho de tela sem perder a identidade estética da série.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🛠️ Tecnologias e Conceitos
+O projeto foi construído utilizando as melhores práticas de arquitetura CSS e componentização:
 
-- ⚛️ React
-- 🎨 CSS Modules
-- 📐 CSS Grid & Flexbox
-- 📱 Design Responsivo
-- ✨ Animações com CSS
-
----
-
-## 📱 Responsividade
-
-O layout se adapta automaticamente para diferentes tamanhos de tela:
-
-- 🖥️ Desktop: até **3 colunas**
-- 💻 Tablets: **2 colunas**
-- 📱 Mobile: **1 coluna**
-
-Utilizando **CSS Grid** com media queries bem definidas para evitar quebras de layout.
+* **React**: Biblioteca utilizada para modularizar as seções da página em componentes limpos e reutilizáveis.
+* **CSS Modules**: Abordagem de estilização escopada por componente, garantindo que as classes não sofram interferências globais.
+* **CSS Grid & Flexbox**: Utilizados de forma combinada para estruturar o posicionamento dos elementos e gerenciar o alinhamento do conteúdo.
+* **Responsividade Avançada**: Uso de funções modernas do CSS, como `clamp()`, para criar uma tipografia perfeitamente escalável entre diferentes dispositivos.
 
 ---
 
-## 🎨 Destaques de UI
-
-- Grid limitado a no máximo 3 colunas
-- Tipografia escalável com `clamp()`
-- Imagens com efeito glow e hover
-- Seções com overlay e gradientes sutis
-- Layout limpo e centralizado em mobile
+## 🏗️ Funcionalidades e Destaques de UI
+* 📱 **Grid Adaptativo**: Organização inteligente do layout que se reconfigura automaticamente em até 3 colunas no Desktop, 2 colunas em Tablets e 1 coluna em dispositivos Mobile.
+* ✨ **Efeitos Atmosféricos**: Imagens com efeitos de *glow* (brilho) e animações suaves de *hover*, simulando a identidade visual misteriosa da série.
+* 🎨 **Design Imersivo**: Uso de overlays escuros e gradientes sutis sobre as seções para garantir o contraste e a leitura da tipografia temática.
 
 ---
 
-## 🧠 Aprendizados
+## 🔄 Como Rodar o Projeto
 
-- Organização de componentes em React
-- Controle de layout com Grid responsivo
-- Planejamento de breakpoints
-- Separação de responsabilidade entre estrutura e estilo
+Para executar este projeto localmente, siga os passos abaixo:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Herdes-s/Stranger-Things-Site
+   ```
+   
+2. **Acesse a pasta do projeto:**
+    ```bash
+    cd Stranger-Things-Site
+    ```
+
+3. **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4. **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm start
+    ```
 
 ---
 
-## 📸 Preview
-
-> Adicione uma imagem chamada **preview.png** na raiz do repositório  
-> (print da tela inicial do site)
-
----
-
-## 📌 Status do projeto
-
-✅ Em desenvolvimento / Portfólio
+## 🧠 Desafios e Aprendizados
+* **Desafio:** O maior desafio foi garantir que as imagens com efeito glow mantivessem o alinhamento correto e a proporção visual ao mudar o número de colunas no grid.
+* **Solução:** Resolvi isso aplicando propriedades de object-fit combinadas com media queries estratégicas baseadas em CSS Grid, mantendo a proporção travada em 16:9.
 
 ---
 
-## 👨‍💻 Autor
+## 🔗 Link de Acesso
+Confira o projeto online: [**Visualizar Stranger Things Web**]("https://stranger-things-site-taupe.vercel.app/")
 
-**Mizum.dev**  
-Front-end Developer em formação
+---
 
-🔗 GitHub: https://github.com/seu-usuario
+## 👤 Autor
+Desenvolvido por **Ernand Soares**.

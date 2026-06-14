@@ -65,7 +65,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 ---
 
 ## 🔗 Link de Acesso
-Confira o projeto online: [**Visualizar Stranger Things Web**]("https://stranger-things-site-taupe.vercel.app/")
+Confira o projeto online: [**Visualizar Stranger Things Web**](https://stranger-things-site-taupe.vercel.app/)
 
 ---
 
